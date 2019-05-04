@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadFeed_video">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:id="@+id/uploadFeed_video_txt"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="Posting Video"
+        android:textStyle="bold"
+        />
+
+    <VideoView
+        android:id="@+id/uploadFeed_video_videoview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/uploadFeed_video_txt"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"/>
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/uploadFeed_video_videoview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:hint="click to write caption here"
+        android:id="@+id/uploadFeed_video_caption"
+        android:maxLines="5"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="15sp"
+        android:text="Include Poll"
+        android:id="@+id/uploadFeed_video_include_poll"
+        android:layout_below="@+id/uploadFeed_video_caption"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/uploadFeed_video_include_poll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:id="@+id/linear"
+        android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Poll text"
+        android:layout_weight="1"
+        android:id="@+id/uploadFeed_video_poll_text"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Poll Option 1"
+                android:textSize="15sp"
+                android:id="@+id/uploadFeed_video_poll_option_1"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:hint="Poll option 2"
+                android:id="@+id/uploadFeed_video_poll_option_2"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Upload"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/uploadFeed_video_up_button"
+        android:layout_below="@+id/linear"
+        android:background="@drawable/rounded_border_blue"
+        />
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

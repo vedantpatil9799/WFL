@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsfeed"
+    android:id="@+id/frag_newsfeed_frame"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="50dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_newsfeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+  <android.support.design.widget.FloatingActionButton
+      android:layout_width="56dp"
+      android:layout_height="56dp"
+      android:layout_gravity="end|bottom"
+      android:id="@+id/frag_newsfeed_fab"
+      android:layout_margin="25dp"
+      android:src="@drawable/ic_add_black_24dp"
+      />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/frag_newsfeed_fab_addPhoto"
+        android:visibility="invisible"
+        android:src="@drawable/ic_camera_black_24dp"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:visibility="invisible"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="150dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/ic_videocam_black_24dp"
+        android:id="@+id/frag_newsfeed_fab_video"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:visibility="invisible"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="210dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/ic_photo_library_black_24dp"
+        android:id="@+id/frag_newsfeed_fab_SelectFromGallery"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="270dp"
+        android:src="@drawable/ic_create_black_24dp"
+        android:visibility="invisible"
+        android:id="@+id/frag_newsfeed_fab_writeYourOwn"/>
+</FrameLayout>

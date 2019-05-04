@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Way For Life</string>
+    <string name="title_home">News Feed</string>
+    <string name="title_dashboard">Report Problem</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gmap">Map</string>
+
+
+    <string name="about_us">Way For Life is a registered Non-Government Organisation started and maintained by Youths of various colleges for development of the society.Way For Life conducted its first event on 30/04/2017 and  from then conducted events every alternate Sunday’s. Way For Life was registered under Trust   on 25/09/2017 which was almost after 5 months from the day it was started, within the 5 months Team Way For Life successfully completed 12 events.</string>
+
+
+    <string name="donate_text">For every 1rs we receive\n -50ps will be spent for improvement of Govt school.\n -35ps will be spent for education of road side kids.\n -15ps will be used for Cleanathon(Swachh Bharath).</string>
+    <string name="blood_donate">The main motto of this "Ensure that no body dies for the want of something that in abundant in everyone body".</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+
+
+
+    <string name="slide_1_title">Way For Life</string>
+    <string name="slide_1_desc">The Non-Government Organisation </string>
+
+    <string name="slide_2_title">Any problem in your area?</string>
+    <string name="slide_2_desc">Post it here</string>
+
+    <string name="slide_3_title">Donate us</string>
+
+    <string name="slide_4_title">Join us</string>
+    <string name="slide_4_desc">Volunteer With Us to make the society Better
+</string>
+    <string name="start">GOT IT</string>
+    <string name="the_terms_and_conditions"><u>Terms and conditions.</u></string>
+
+
+</resources>

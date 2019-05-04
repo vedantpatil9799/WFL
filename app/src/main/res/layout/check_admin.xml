@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_border_white"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Way For Life"
+        android:textAlignment="center"
+        android:textColor="#59b2e9"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Authentication"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/icon_mobile" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Put the PIN provided by WFL admin"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Provide 4 digit PIN"
+        android:textAlignment="center"
+        android:textColor="#59b2e9"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/edit_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:editable="true"
+        android:hint="PIN here"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/admin_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_border_white"
+        android:text="Done"
+        android:textAllCaps="false" />
+    <!--  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:drawablePadding="2dp"
+            android:layout_centerHorizontal="true"
+            android:justificationMode="inter_word"
+            android:text="OTP will be valid for 5 minute only."
+            android:drawableStart="@drawable/icon_alert"/>-->
+</LinearLayout>

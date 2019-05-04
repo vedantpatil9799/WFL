@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadFeed_image">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uploading Image"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/img_txt"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:id="@+id/card"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/img_txt"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_height="250dp"
+            android:id="@+id/img_imageView"
+            android:src="@drawable/ic_thumb_down_black_24dp"
+            android:scaleType="centerCrop"/>
+
+    </android.support.v7.widget.CardView>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:hint="click to write caption here"
+        android:id="@+id/img_caption"
+        android:maxLines="5"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="15sp"
+        android:text="Include Poll"
+        android:id="@+id/img_include_poll"
+        android:layout_below="@+id/img_caption"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/img_include_poll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:id="@+id/linear"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Poll text"
+            android:layout_weight="1"
+            android:id="@+id/img_poll_text"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Poll Option 1"
+                    android:id="@+id/img_poll_option_1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Poll option 2"
+                    android:id="@+id/img_poll_option_2"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/linear"
+        android:layout_margin="10dp"
+        android:id="@+id/upload_feed_upload"
+        android:text="UPLOAD"
+        android:background="@drawable/rounded_border_blue"/>
+  </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

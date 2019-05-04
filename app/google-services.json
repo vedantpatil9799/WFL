@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "875414128088",
+    "firebase_url": "https://wfldatabase-a9d86.firebaseio.com",
+    "project_id": "wfldatabase-a9d86",
+    "storage_bucket": "wfldatabase-a9d86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875414128088:android:85b7b1bb64b0bc65",
+        "android_client_info": {
+          "package_name": "com.example.nitin.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875414128088-srp2ds15tacj0oo0qrqaart2gj237ehm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nitin.demo",
+            "certificate_hash": "4aad4735a02003a7133ba3ba38ee9a01501306c7"
+          }
+        },
+        {
+          "client_id": "875414128088-d17d8mcajfdb52nhcojjf3aql39j7jsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4lnJMbMC-nohIraNaiKzYVmEE4QOwQkA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875414128088-d17d8mcajfdb52nhcojjf3aql39j7jsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875414128088:android:7bd82a8e52232075",
+        "android_client_info": {
+          "package_name": "wayforlife.com.wfl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875414128088-ntmeg1iopti32hv21obodg7g8gal5u06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wayforlife.com.wfl",
+            "certificate_hash": "62665cfffe32b001a90a2cfc8957c587b3be7ebe"
+          }
+        },
+        {
+          "client_id": "875414128088-lhrq2rr792014iplb21qqf5lbvmfcbkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wayforlife.com.wfl",
+            "certificate_hash": "030d82198b08a28c0200ec30dc47d43b1df41e38"
+          }
+        },
+        {
+          "client_id": "875414128088-d17d8mcajfdb52nhcojjf3aql39j7jsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4lnJMbMC-nohIraNaiKzYVmEE4QOwQkA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875414128088-d17d8mcajfdb52nhcojjf3aql39j7jsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

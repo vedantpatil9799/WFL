@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment_donate"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="50dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:weightSum="2"
+    android:orientation="vertical">
+<android.support.v7.widget.CardView
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp"
+    android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/blood_donate_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/blood"
+            app:civ_border_color="#FFF"
+            app:civ_border_width="5dp"
+            app:civ_fill_color="#fff" />
+
+    <TextView
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blood_donate"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/money_donate_img"
+        android:layout_below="@+id/blood_donate_img"
+        android:layout_width="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/donate"
+        app:civ_border_color="#FFF"
+        app:civ_border_width="5dp"
+        app:civ_fill_color="#fff" />
+
+    <TextView
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="@string/donate_text"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+</FrameLayout>
